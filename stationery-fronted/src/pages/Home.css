@@ -1,0 +1,130 @@
+.home-page-container {
+  padding: 40px 50px;
+  background-color: #fcfaf5; 
+  min-height: 100vh;
+  color: #1a1a1a;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 40px;
+}
+
+.hero-left {
+  flex: 1.5;
+}
+
+.hero-left h1 {
+  font-size: 56px;
+  line-height: 1.1;
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-right p {
+  font-size: 16px;
+  color: #4a4a4a;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.shop-now-btn {
+  background-color: #1a1a1a;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.shop-now-btn:hover {
+  background-color: #333;
+}
+
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.showcase-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card-image-box {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.placeholder-icon {
+  font-size: 20px;
+  color: rgba(0,0,0,0.4);
+  font-weight: bold;
+}
+
+.card-info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+}
+
+.card-info-row h3 {
+  font-size: 18px;
+  margin: 0 0 5px 0;
+  font-weight: bold;
+}
+
+.start-price {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.cart-icon-btn {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #1a1a1a;
+}
+
+.cart-icon-btn:hover {
+  background-color: #1a1a1a;
+  color: white;
+}
